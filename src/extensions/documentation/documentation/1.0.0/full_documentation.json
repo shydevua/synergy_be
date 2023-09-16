@@ -27,6 +27,10 @@
     {
       "url": "http://localhost:1337/api",
       "description": "Development server"
+    },
+    {
+      "url": "https://hammerhead-app-urofi.ondigitalocean.app/api",
+      "description": "Production server"
     }
   ],
   "externalDocs": {
