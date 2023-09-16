@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_payments_payment_details",
+  "info": {
+    "displayName": "PaymentDetails",
+    "icon": "shoppingCart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paymentInfo": {
+      "type": "string"
+    }
+  }
+}
