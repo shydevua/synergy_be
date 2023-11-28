@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "churches",
+  "info": {
+    "singularName": "church",
+    "pluralName": "churches",
+    "displayName": "church",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "whenOpened": {
+      "type": "date"
+    },
+    "leader": {
+      "type": "string"
+    },
+    "leaderPhoneNumber": {
+      "type": "string"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "region": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::region.region"
+    }
+  }
+}
