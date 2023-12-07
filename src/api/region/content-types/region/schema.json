@@ -4,7 +4,8 @@
   "info": {
     "singularName": "region",
     "pluralName": "regions",
-    "displayName": "Region"
+    "displayName": "Region",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,22 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "leader": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }
