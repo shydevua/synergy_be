@@ -69,6 +69,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::region.region"
+    },
+    "name": {
+      "type": "string",
+      "required": true
     }
   }
 }
