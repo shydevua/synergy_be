@@ -36,6 +36,15 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::region.region"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "open",
+        "planning"
+      ],
+      "default": "open",
+      "required": true
     }
   }
 }

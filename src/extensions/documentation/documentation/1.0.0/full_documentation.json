@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-12-10T17:36:46.617Z"
+    "x-generation-date": "2023-12-21T21:21:38.239Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -97,6 +97,9 @@
         ],
         "properties": {
           "data": {
+            "required": [
+              "type"
+            ],
             "type": "object",
             "properties": {
               "name": {
@@ -136,6 +139,13 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "open",
+                  "planning"
+                ]
               }
             }
           }
@@ -189,6 +199,9 @@
       },
       "Church": {
         "type": "object",
+        "required": [
+          "type"
+        ],
         "properties": {
           "name": {
             "type": "string"
@@ -1187,6 +1200,13 @@
                 }
               }
             }
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "open",
+              "planning"
+            ]
           },
           "createdAt": {
             "type": "string",
