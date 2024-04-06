@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anketas",
+  "info": {
+    "singularName": "anketa",
+    "pluralName": "anketas",
+    "displayName": "Anketa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "church": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "globalMission": {
+      "type": "boolean"
+    },
+    "prayTeam": {
+      "type": "boolean"
+    },
+    "informLocalChurch": {
+      "type": "boolean"
+    },
+    "moneyHelp": {
+      "type": "boolean"
+    },
+    "fiveDaysTrip": {
+      "type": "boolean"
+    },
+    "wantToTeachHowPNC": {
+      "type": "boolean"
+    }
+  }
+}
