@@ -4,7 +4,8 @@
   "info": {
     "singularName": "anketa",
     "pluralName": "anketas",
-    "displayName": "Anketa"
+    "displayName": "Anketa",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -45,6 +46,9 @@
       "type": "boolean"
     },
     "wantToTeachHowPNC": {
+      "type": "boolean"
+    },
+    "newCareer": {
       "type": "boolean"
     }
   }
